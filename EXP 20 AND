@@ -1,0 +1,18 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+MVI A,06
+MVI B,04
+ANA B
+STA 2500
+
+
+
+hlt
